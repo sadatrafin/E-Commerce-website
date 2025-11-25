@@ -2,7 +2,7 @@ import React, { Children } from 'react'
 
 const Para = ({ children, className }) => {
   return (
-    <div className={` font-normal text-[16px] leading-[24px] ${className}`}>{children}</div>
+    <div className={` font-normal text-[16px] leading-[30px] ${className}`}>{children}</div>
   )
 }
 
