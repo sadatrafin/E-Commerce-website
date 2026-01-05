@@ -19,8 +19,8 @@ const Login = () => {
                 progress: undefined,
                 theme: "light",
                 transition: Bounce,
-            });
-        } else {
+            });   
+        } else {  
             toast.success('Log in successfully!', {
                 position: "top-right",
                 autoClose: 5000,
@@ -31,7 +31,7 @@ const Login = () => {
                 progress: undefined,
                 theme: "light",
                 transition: Bounce,
-            });
+            });   
         }
     }
 
