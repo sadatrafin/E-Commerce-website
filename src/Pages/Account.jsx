@@ -16,7 +16,7 @@ const Account = () => {
                 hideProgressBar={false}
                 newestOnTop={false}
                 closeOnClick={false}
-                rtl={false}
+                rtl={false} 
                 pauseOnFocusLoss
                 draggable
                 pauseOnHover
@@ -24,7 +24,7 @@ const Account = () => {
                 transition={Bounce}
             />
         </Container>
-    )
-}
+    )  
+}     
 
 export default Account
